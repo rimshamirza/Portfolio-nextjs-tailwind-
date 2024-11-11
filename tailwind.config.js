@@ -12,12 +12,20 @@ module.exports = {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
         "gradient-conic":
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
+          colors: {
+            sky: '<previous lightBlue color>',
+            stone: '<previous warmGray color>',
+            neutral: '<previous trueGray color>',
+            gray: '<previous coolGray color>',
+            slate: '<previous blueGray color>',
+          },
       },
     },
     colors: {
       ...colors,
       primary: colors.purple,
       secondary: colors.pink,
+      
     },
   },
   plugins: [],
